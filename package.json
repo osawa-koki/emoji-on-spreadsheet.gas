@@ -12,13 +12,14 @@
     "yarn": ">= 1.22.0"
   },
   "scripts": {
-    "build": "esbuild ./src/index.ts --bundle --platform=node --target=node20 --outfile=./public/index.js",
+    "build": "node ./build.js",
     "push": "clasp push",
     "pull": "clasp pull",
     "open": "clasp open"
   },
   "dependencies": {
     "esbuild": "^0.19.11",
+    "esbuild-gas-plugin": "^0.8.0",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
