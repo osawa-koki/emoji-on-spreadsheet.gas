@@ -2,6 +2,8 @@
 
 🧷🧷🧷 絵文字一覧をGoogleスプレッドシートに出力するGoogle Apps Scriptです！  
 
+![成果物](./docs/images/fruit.gif)  
+
 ## 準備方法
 
 ### 1. Google Apps Script APIの有効化
