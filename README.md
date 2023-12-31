@@ -2,6 +2,9 @@
 
 🧷🧷🧷 絵文字一覧をGoogleスプレッドシートに出力するGoogle Apps Scriptです！  
 
+[![ci](https://github.com/osawa-koki/emoji-on-spreadsheet.gas/actions/workflows/ci.yml/badge.svg)](https://github.com/osawa-koki/emoji-on-spreadsheet.gas/actions/workflows/ci.yml)
+[![cd](https://github.com/osawa-koki/emoji-on-spreadsheet.gas/actions/workflows/cd.yml/badge.svg)](https://github.com/osawa-koki/emoji-on-spreadsheet.gas/actions/workflows/cd.yml)
+
 ![成果物](./docs/images/fruit.gif)  
 
 ## 準備方法
