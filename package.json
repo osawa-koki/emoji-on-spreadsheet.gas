@@ -21,7 +21,6 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "csv": "^6.3.6",
     "esbuild": "^0.19.11",
     "esbuild-gas-plugin": "^0.8.0",
     "typescript": "*"
