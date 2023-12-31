@@ -1,0 +1,26 @@
+{
+  "name": "emoji-on-spreadsheet.gas",
+  "version": "1.0.0",
+  "description": "🧷🧷🧷 絵文字一覧をGoogleスプレッドシートに出力するGoogle Apps Scriptです！",
+  "main": "./src/index.ts",
+  "repository": "https://github.com/osawa-koki/emoji-on-spreadsheet.gas.git",
+  "author": "osawa-koki <koki@osawa.dev>",
+  "license": "Apache-2.0",
+  "private": false,
+  "engines": {
+    "node": ">= 20.0.0",
+    "yarn": ">= 1.22.0"
+  },
+  "scripts": {
+    "build": "esbuild ./src/index.ts --bundle --platform=node --target=node20 --outfile=./public/index.js",
+    "push": "clasp push",
+    "pull": "clasp pull",
+    "open": "clasp open"
+  },
+  "dependencies": {
+    "esbuild": "^0.19.11"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.78"
+  }
+}
