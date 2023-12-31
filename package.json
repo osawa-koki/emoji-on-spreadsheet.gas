@@ -11,7 +11,12 @@
     "node": ">= 20.0.0",
     "yarn": ">= 1.22.0"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "esbuild ./src/index.ts --bundle --platform=node --target=node20 --outfile=./public/index.js",
+    "push": "clasp push",
+    "pull": "clasp pull",
+    "open": "clasp open"
+  },
   "dependencies": {
     "esbuild": "^0.19.11"
   },
