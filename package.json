@@ -12,7 +12,9 @@
     "yarn": ">= 1.22.0"
   },
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "esbuild": "^0.19.11"
+  },
   "devDependencies": {
     "@types/google-apps-script": "^1.0.78"
   }
